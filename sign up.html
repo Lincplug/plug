@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+    <link rel="stylesheet" href="project3_master.css">
+  </head>
+  <body>
+<section class="formk" id="formk">
+  <div class="nav">
+    <h2>Sign up</h2>
+    <br>
+    <div class="message">
+      <p id="signup-error-msg">This Is An Error Message</p>
+      <br>
+      <form action="navbar" onsubmit="return validatesignupform()" method="post">
+        <input type="text"name="First name" class="form-control" placeholder="First name" required>
+        <br>
+        <br>
+        <br>
+        <input type="text" name="last name"class="form-control" placeholder="Last name" required>
+        <br>
+        <br>
+        <br>
+        <input type="text" name="username" class="form-control"placeholder="username" required>
+        <br>
+        <br>
+        <br>
+        <input type="email" class="form-control" name="Email"placeholder="Email" required>
+        <br>
+        <br>
+        <br>
+        <input type="password" id="createpassword" name="create password" placeholder="Create password" required>
+        <br>
+        <br>
+        <br>
+        <input type="password" id="Confirmpassword" name="Confirm password" placeholder="Confirm password" required>
+        <br>
+        <br>
+        <br>
+<a href="sign in.html"><button type="button" onclick="validate" class="btn" name="button">SIGN IN</button> </a>
+        <br>
+        <br>
+        <small>Already Have An Account? <a href="sign in.html">sign in</a></small>
+      </form>
+    </div>
+  </div>
+</section>
+  <script src="signup.js"></script>
+  </body>
+</html>
